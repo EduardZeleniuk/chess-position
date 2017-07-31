@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+.board {
+	display: flex;
+	background-image: url(../img/docka.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	position: relative;
+	transform: perspective(1000px) rotate3d(300,-70,80,55deg);
+}
+.chess {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+}
+.chess_black {
+	background: #303030;
+}
+.chess_red {
+	background: #B6282D;
+}
+
+.chess_row-1 {
+	top: 670px;
+}
+.chess_row-2 {
+	top: 580px;
+}
+.chess_row-3 {
+	top: 490px;
+}
+.chess_row-6 {
+	top: 225px;
+}
+.chess_row-7 {
+	top: 135px;
+}
+.chess_row-8 {
+	top: 45px;
+}
+
+.chees_col-a {
+	left: 55px;
+}
+.chees_col-b {
+	left: 140px;
+}
+.chees_col-c {
+	left: 230px;
+}
+.chees_col-d {
+	left: 320px;
+}
+.chees_col-e {
+	left: 410px;
+}
+.chees_col-f {
+	left: 495px;
+}
+.chees_col-g {
+	left: 585px;	
+}
+.chees_col-h {
+	left: 675px;	
+}
